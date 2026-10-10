@@ -1,8 +1,7 @@
-# Canada-2011
 /*
- * Mod Title: 2011 Canada
+ * Mod Title: Canada 2011
  * Mod Author: Simjim39
- * Mod Version: 1.0
+ * Mod Version: 0.1
  * Mod Description: Canadian Federal Election of 2011
  * 
  * Coding License: Apache License 2.0
@@ -66,10 +65,10 @@ campaignTrail_temp.election_json = [
         "pk": 20,
         "fields": {
             "year": 2025,
-            "display_year": "2025Canada",
-            "summary": "<p>On March 25th 2011 a motion of no confidence was passed by the opposition parties of the Bloc Quebecois, Liberals and NDP with the writs of election also being issued by the Governor General after being advised by the Prime Minister. Stephen Harper's Conservatives campaign on finally achieving a Majority Government while Michael Ignatieff's Liberals and Gilles Duceppe's Bloc Quebecois campaign to stop keep the tories at a Minority, Jack Layton's NDP also wish to stop a Conservative Majority but also want to overtake the Liberals and Bloc in their number of seats while Elizabeth May's Greens want to finally elect one of their candidates into Parliament. Who will achieve their goals, and who will concede, ultimately it's all up to YOU.</p>",
+            "display_year": "canada 2011",
+            "summary": "<p>As the 2025 election approaches, the situation appears dire for the Liberal Party of Canada. After 9 years of governance, Prime Minister Justin Trudeau's popularity has waned. Dissatisfaction with the economic condition of the country and Trudeau's scandals has left the Liberal Party polling at half the support of the rival Conservative Party, barely above the left-wing New Democratic Party. Pierre Poilievre, the Conservative leader, appears poised to become the next Prime Minister of Canada.</p><p>However, the winds are changing. Donald Trump's shock election win, combined with his trade policy, puts him on a collision course with the Canadian government. There are rumblings within the Liberal Party to push Trudeau out and seek out a new leader. Will Poilievre and the Conservatives cruise to victory? Or will the Liberals succeed in making a comeback for the ages?</p>",
             "image_url": "https://i.imgur.com/XY0opQO.jpeg",
-            "winning_electoral_vote_number": 155,
+            "winning_electoral_vote_number": 172,
             "advisor_url": "https://i.imgur.com/q9n37oj.jpeg",
             "recommended_reading": "",
             "has_visits": 0,
@@ -81,16 +80,16 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 20,
-        "year": 2011,
+        "year": 2025,
         "is_premium": 0,
-        "display_year": "2011Canada"
+        "display_year": "Canada2011"
     }
 ]
 
 campaignTrail_temp.credits = "<button onclick='funcredits()'>rbaldwin</button>";
 
 funcredits = function() {
-    credits = ["Created by Simjim39", "", "Inspired by Diefenbaker '57" and Canada 2025, "",  "", "Tooltips and election charts adapted from 2023 Netherlands/Canada2025", "", "Music player adapted from 2024: Arnold Amendment and Germany 2021 - Between Decades plus canada 2025"]
+    credits = ["Created by rbaldwin#4567 aka u/Ok_Frosting4780", "", "Inspired by Diefenbaker '57", "", "Map adapted from Wikipedia user Eric0892", "", "Tooltips and election charts adapted from 2023 Netherlands", "", "Music player adapted from 2024: Arnold Amendment and Germany 2021 - Between Decades"]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
@@ -107,12 +106,12 @@ campaignTrail_temp.candidate_json = [
         "pk": 300,
         "fields": {
             "first_name": "",
-            "last_name": "Conservative Party of Canada",
+            "last_name": "CPC",
             "election": 20,
-            "slogan": "here for Canada",
-            "ideology": "conservative",
+            "party": "Conservative",
+            "state": "Canada",
             "priority": 1,
-            "description": "<g><ul><li>Abbreviation: CPC</li><li>Name: Conservative Party of Canada</li></ul><p>Although the Conservative Party has existed in Canada since the days of John a MacDonald though rebanded itself to the Progressive Conservative Party in the 1940s, it would split into largely two parties with the Reform party capturing the western vote while the PCs themselves would be crushed by the liberals in 1993. The Progressive Conservative Party would be in a state of shock and limbo for the next decade until 2003 when uniting with the Alliance Party which was in all actuality just the renamed Reform Party. This merger would create the new Conservative Party which only 3 years later defeated the Liberals and gained a Minority. But now the Conservatives are planning to win a Majority Government and if everything goes to plan, that’s exactly what they’ll get.</p></g>",
+            "description": "<g><ul><li>Abbreviation: CPC</li><li>Name: Conservative party of Canada </li></ul><p>Although the Conservative Party has existed in Canada since the days of John a MacDonald though rebanded itself to the Progressive Conservative Party in the 1940s, it would split into largely two parties with the Reform party capturing the western vote while the PCs themselves would be crushed by the liberals in 1993. The Progressive Conservative Party would be in a state of shock and limbo for the next decade until 2003 when uniting with the Alliance Party which was in all actuality just the renamed Reform Party. This merger would create the new Conservative Party which only 3 years later defeated the Liberals and gained a Minority. But now the Conservatives are planning to win a Majority Government and if everything goes to plan, that’s exactly what they’ll get.</p></g>",
             "color_hex": "#EA6D6A",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -129,20 +128,18 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 310,
         "fields": {
-            "first_name": "Stephen",
-            "last_name": "Harper",
+            "first_name": "Mark",
+            "last_name": "Carney",
             "election": 20,
-            "party": "Conservative",
-            "state": "MP of Calgary-Southwest",
+            "party": "Liberal",
+            "state": "Nepean",
             "priority": 1,
             "description": "",
             "color_hex": "#EA6D6A",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/MVBYnzH.jpeg",
-            "description_as_running_mate": "<p>We Canadians are inheritors of a great legacy, and it is our duty to strengthen and protect it for the generations still to come. Tonight, I pledge to you that Canada’s Government will use every legal means at our disposal to protect our democracy, to protect our economy, and to protect Canada -Stephen Harper 
-
-Stepehn Harper has been leader of the Conservative Party since its creation and the year prior had been elected as leader of the Alliance party in 2002 with him also being involved with the Reform Party. In 2004 which was also the first election for the at the time new Conservative Party took part in, he was able to knock down the Liberal Party under the new Prime Minister Paul Martin to a minority while then 2 years later winning a minority government. But not all is in his favour as the 3 opposition parties of the Bloc, NDP and Liberals technically still hold a Majority of seats and if he truly does want to bring a conservative agenda to Canada then he must win a Majority Government.</p>",
+            "description_as_running_mate": "<p>Born in Fort Smith, Northwest Territories and raised in Edmonton, Alberta, Mark Carney went on to earn a PhD in economics from the University of Oxford, work for 13 years at Goldman Sachs, then return to the public service in Canada. He served as deputy governor of the Bank of Canada, then as deputy minister of finance, then as Governor of the Bank of Canada where he served during the Great Financial Crisis. He was then recruited as the first non-British Governor of the Bank of England where he managed the aftermath of Brexit.</p><p>Currently, Carney heads the board for Brookfield Asset Management, a company managing over $1 trillion in assets, and is involved in many other companies. However, he has increasingly dipped his toes into Canadian politics, becoming an economic advisor for Prime Minister Trudeau. There are rumours that Trudeau is courting him for a more direct role in government…</p>",
             "candidate_score": 1,
             "running_mate": true
         }
