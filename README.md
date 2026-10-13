@@ -66,7 +66,7 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2025,
             "display_year": "canada 2011",
-            "summary": "<p>As the 2025 election approaches, the situation appears dire for the Liberal Party of Canada. After 9 years of governance, Prime Minister Justin Trudeau's popularity has waned. Dissatisfaction with the economic condition of the country and Trudeau's scandals has left the Liberal Party polling at half the support of the rival Conservative Party, barely above the left-wing New Democratic Party. Pierre Poilievre, the Conservative leader, appears poised to become the next Prime Minister of Canada.</p><p>However, the winds are changing. Donald Trump's shock election win, combined with his trade policy, puts him on a collision course with the Canadian government. There are rumblings within the Liberal Party to push Trudeau out and seek out a new leader. Will Poilievre and the Conservatives cruise to victory? Or will the Liberals succeed in making a comeback for the ages?</p>",
+            "summary": "<p>On March 25th 2011 a motion of no confidence was passed by the opposition parties of the Bloc Quebecois, Liberals and NDP with the writs of election also being issued by the Governor General after being advised by the Prime Minister. Stephen Harper's Conservatives campaign on finally achieving a Majority Government while Michael Ignatieff's Liberals and Gilles Duceppe's Bloc Quebecois campaign to stop keep the tories at a Minority, Jack Layton's NDP also wish to stop a Conservative Majority but also want to overtake the Liberals and Bloc in their number of seats while Elizabeth May's Greens want to finally elect one of their candidates into Parliament. Who will achieve their goals, and who will concede, ultimately it's all up to YOU.</p>",
             "image_url": "https://i.imgur.com/XY0opQO.jpeg",
             "winning_electoral_vote_number": 172,
             "advisor_url": "https://i.imgur.com/q9n37oj.jpeg",
@@ -115,7 +115,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#EA6D6A",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://i.imgur.com/ly0e79f.jpeg",
+            "image_url": "https://imgur.com/a/Pe2A9gA",
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
@@ -128,18 +128,18 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 310,
         "fields": {
-            "first_name": "Mark",
-            "last_name": "Carney",
+            "first_name": "Steven",
+            "last_name": "Harper",
             "election": 20,
-            "party": "Liberal",
-            "state": "Nepean",
+            "party": "Conservative",
+            "state": "MP of Calgary-Southwest",
             "priority": 1,
             "description": "",
             "color_hex": "#EA6D6A",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/MVBYnzH.jpeg",
-            "description_as_running_mate": "<p>Born in Fort Smith, Northwest Territories and raised in Edmonton, Alberta, Mark Carney went on to earn a PhD in economics from the University of Oxford, work for 13 years at Goldman Sachs, then return to the public service in Canada. He served as deputy governor of the Bank of Canada, then as deputy minister of finance, then as Governor of the Bank of Canada where he served during the Great Financial Crisis. He was then recruited as the first non-British Governor of the Bank of England where he managed the aftermath of Brexit.</p><p>Currently, Carney heads the board for Brookfield Asset Management, a company managing over $1 trillion in assets, and is involved in many other companies. However, he has increasingly dipped his toes into Canadian politics, becoming an economic advisor for Prime Minister Trudeau. There are rumours that Trudeau is courting him for a more direct role in government…</p>",
+            "description_as_running_mate": "<p>‘We Canadians are inheritors of a great legacy, and it is our duty to strengthen and protect it for the generations still to come. Tonight, I pledge to you that Canada’s Government will use every legal means at our disposal to protect our democracy, to protect our economy, and to protect Canada’ -Stephen Harper has been leader of the Conservative Party since its creation and the year prior had been elected as leader of the Alliance party in 2002 with him also being involved with the Reform Party. In 2004 which was also the first election for the at the time new Conservative Party took part in, he was able to knock down the Liberal Party under the new Prime Minister Paul Martin to a minority while then 2 years later winning a minority government. But not all is in his favour as the 3 opposition parties of the Bloc, NDP and Liberals technically still hold a Majority of seats and if he truly does want to bring a conservative agenda to Canada then he must win a Majority Government.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -149,12 +149,12 @@ campaignTrail_temp.candidate_json = [
         "pk": 301,
         "fields": {
             "first_name": "",
-            "last_name": "CPC",
+            "last_name": "NDP",
             "election": 20,
-            "party": "Conservative",
+            "party": "Social Democracy",
             "state": "Canada",
             "priority": 1,
-            "description": "<g><ul><li>Abbreviation: CPC</li><li>Name: Conservative Party of Canada</li></ul><p>Formed as a merger between the Progressive Conservative Party and the Reform Party in 2003, the Conservative Party is the main party occupying the right wing of the Canadian political spectrum.</p><p>After holding power for 9 years under the leadership of Stephen Harper, the Conservative Party has been relegated to the Official Opposition for the last 9 years, the last two of which were under the leadership of Pierre Poilievre.</p><p>As the 2025 election approaches, the Conservative Party holds a commanding lead in the polls. Can the party maintain its advantage on election day?</p></g>",
+            "description": "<g><ul><li>Abbreviation: NDP</li><li>Name: New Democratic Party </li></ul><p>The NDP has debatedly been around for 80 years since the days of the Progressives and Cooperation Commonwealth, but technically was formed in 1961 when the CCF ( Cooperation Commonwealth Federation ) merged with the CLC ( Canadian Labour Congress ) to create the New Democratic Party. Ever since then NDP has usually had a respectable showing in parliament with it like other parties having its fair share of gaining and losing seats with their peak of seats coming in 1988 with 43 under leader Ed Broadbent while their worst loss would happen in 1993 when the New Democrats went just under 12 seats needed for official party status as it was the only election it participated it where they gained seats below the threshold. But since a change in leadership, the NDP in the last 3 past elections has gained more and more seats and share of the popular vote. And now with a weakening Liberals and Bloc the NDP hope to make a large gain and possibly become something much more than the party in 4th place.</p></g>",
             "color_hex": "#6495ED",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -171,18 +171,18 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 311,
         "fields": {
-            "first_name": "Pierre",
-            "last_name": "Poilievre",
+            "first_name": "Jack",
+            "last_name": "Layton",
             "election": 20,
-            "party": "Conservative",
-            "state": "Carleton",
+            "party": "New Democratic",
+            "state": "MP of Toronto-Danforth",
             "priority": 1,
             "description": "",
             "color_hex": "#6495ED",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/jYkYfCa.jpeg",
-            "description_as_running_mate": "<p>Leader of the Conservative Party since 2022, Pierre Poilievre has a long history with the party. He became politically involved in the precursor Reform Party at the young age of 14 years old. His political involvement grew as he did, and he was elected as a Member of Parliament in the 2004 election at only 25 years old. Since then, he has climbed in the party, from backbencher to parliamentary secretary to cabinet minister, and finally to party leadership.</p><p>Under his leadership, the Conservative Party has risen in the polls, gaining from both the Liberal Party on the left and the People's Party on the right. It would appear all but certain that Pierre Poilievre will be the next Prime Minister of Canada.</p>",
+            "description_as_running_mate": "<p>'Canadians can get Parliament working again. Here's how to do that: elect more New Democrats' -Jack Layton has for much of his life fought for the rights of Canadians everywhere whether it be union men, the gay community, indigenous groups, and many more. He became leader of the NDP in 2003 and in the past 3 elections has only seen more and more gains for the New Democrats. Though not everything has been good for him as in 2010 he had been diagnosed with Prostate Cancer which forced him to take less of a role as leader and now requires him to use a cane. In this election he hopes to bring the NDP to the 2nd largest party with the weakening of the Liberals and Bloc and stop the conservatives from achieving their majority government.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -192,12 +192,12 @@ campaignTrail_temp.candidate_json = [
         "pk": 302,
         "fields": {
             "first_name": "",
-            "last_name": "NDP",
+            "last_name": "LPC",
             "election": 20,
-            "party": "New Democratic Party",
+            "party": "Liberal Party of Canada",
             "state": "Canada",
             "priority": 1,
-            "description": "<g><ul><li>Abbreviation: NDP</li><li>Name: New Democratic Party</li></ul><p>The New Democratic Party is the heir to the democratic socialist Cooperative Commonwealth Federation and the federation of organized labour, the Canadian Labour Congress. Founded in 1961, the party is known as Canada's \"conscience\", pushing for the interests of the poor and marginalized.</p><p>Over the last two years, the NDP has supported the minority Liberal government in a supply-and-confidence agreement, before backing out of it.</p><p>As 2025 approaches, the NDP is polling near second place, benefitting from the faltering Liberal Party. If the current trajectory continues, it could even become the Official Opposition party for only the second time in history.</p></g>",
+            "description": "<g><ul><li>Abbreviation: LPC</li><li>Name: Liberal Party of Canada</li></ul><p>The liberal party is technically considered to be the longest continuous party in Canada's history with it existing since Canada's first election of 1867 but nevertheless still being able to adapt through policy and leadership changes over the years. In 2004 minister of finance Paul Martin succeeded Jean Cretchin in becoming Prime Minister though Creechin's resignation was largely forced by pressure from his own caucus and recent unpopularity. However in an election only 6 months after becoming PM, his government was plunged into a minority by the newly formed Conservative Party with the Bloc Quebecois and NDP also eating away at martins support leading to his government's decline. In the election of 2006 Martin would be defeated by Stephen Harper’s Conservatives and subsequently resigned as leader of the liberal party, but the Liberals would still only continue to decline from then with them losing around 20 seats in the election of 2008 while an attempt at a failed Coalition would only severely decrease the Liberals popularity. In this election the Liberals have to try and survive by stopping the Conservatives from achieving a Majority Government and remain as the Opposition.</p></g>",
             "color_hex": "#F4A460",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -214,18 +214,18 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 312,
         "fields": {
-            "first_name": "Jagmeet",
-            "last_name": "Singh",
+            "first_name": "Michael",
+            "last_name": "Ignatieff",
             "election": 20,
-            "party": "NDP",
-            "state": "Burnaby Central",
+            "party": "LPC",
+            "state": "MP of Etobicoke-Lakeshore",
             "priority": 1,
             "description": "",
             "color_hex": "#F4A460",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/E2vgW9A.png",
-            "description_as_running_mate": "<p>A criminal defence lawyer, Jagmeet Singh entered politics in the 2011 election with the federal NDP under Jack Layton. Despite losing his race, he stepped into provincial politics and was elected as a Member of the Legislative Assembly in the same year. After federal NDP leader Thomas Mulcair was ousted in 2017, Singh seized the opportunity and won the leadership of the party. He has since led the party for the last 7 years through the 2019 and 2021 elections where the party has remained stable but failed to break through to become a main contender for government.</p><p>As the 2025 election approaches, Jagmeet Singh's personal appeal has been losing its lustre. Nevertheless, with the party polling near second place, it appears possible for Singh to lead the party into Official Opposition.</p>",
+            "description_as_running_mate": "<p>'One of the greatest feelings in life is the conviction that you have lived the life you wanted to live-with the rough and the smooth, the good and the bad-but yours, shaped by your own choices, and not someone else's' -Michael Ignatieff is truly a figure of the post Cold War era with him spending many years abroad in other countries before coming back home to Canada in the mid 2000s. He was admired by a centrist crowd for his stances on the War on Terror and the Iraq war with his position largely being one of moderation which appeals to many Canadians. After the resignation of Stephane Dion he became leader of the Liberal Party in 2009 and has ever since tried to keep the Liberal Party stable. His goals this election is to keep the Conservatives at a Minority Government and try to gain more seats for a firmer place as the opposition.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -235,12 +235,12 @@ campaignTrail_temp.candidate_json = [
         "pk": 303,
         "fields": {
             "first_name": "",
-            "last_name": "GPC",
+            "last_name": "BQ",
             "election": 20,
-            "party": "Green",
+            "party": "French Sepratist",
             "state": "Canada",
             "priority": 1,
-            "description": "<g><ul><li>Abbreviation: GPC</li><li>Name: Green Party of Canada</li></ul><p>[NOT PLAYABLE]</p><p>Founded in 1983 amidst the international Green movement, the Green Party was initially politically irrelevant. However, under the leadership of Jim Harris, they managed to win almost 5% of the vote in the 2004 and 2006 elections, but no seats. Under his successor, Elizabeth May, the party finally made a breakthrough and won its first seats in Parliament. What was once a single issue party now maintains a full platform that remains centred on environmentalism.</p><p>However, after May retired from leadership, the party suffered from infighting and instability, collapsing the party's popular support. This prompted her to return to the party and introduce a co-leadership model to prevent such party squabbles from reoccurring. Nevertheless, the Green Party is struggling from the political headwinds as the environment and climate change no longer hold as much importance to voters as previously.</p></g>",
+            "description": "<g><ul><li>Abbreviation: BQ</li><li>Name: Bloc Quebcois </li></ul><p>[NOT PLAYABLE FOR NOW ]</p><p>Even though the Bloc Quebecois has only been around in Federal Politics since 1993, the struggle between the French and Anglo populations of Canada has been a struggle for this country since Confederation and the existence of the Bloc only exists because of this divide. The party was originally formed from MPs of the Progressive Conservative Party upset with Brian Mulroney's government and MPs from the Liberal party upset with their new leader Jean Chrétien. They would gain the Majority of seats in Quebec and have remained the Largest party in terms of seats since. But recently the Bloc has not been performing well so their main goal this election is just to retain a majority of seats in Quebec or at the very least a respectable amount of seats to keep defending the rights of the Quebecois.</p></g>",
             "color_hex": "#99C955",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -258,12 +258,12 @@ campaignTrail_temp.candidate_json = [
         "pk": 304,
         "fields": {
             "first_name": "",
-            "last_name": "BQ",
+            "last_name": "GPC",
             "election": 20,
-            "party": "Bloc Québécois",
-            "state": "Québec",
+            "party": "Green Party",
+            "state": "Canada",
             "priority": 1,
-            "description": "<g><ul><li>Abbreviation: BQ</li><li>Name: Bloc Québécois</li></ul><p>[NOT PLAYABLE]</p><p>Initially a coalition of sovereignty-oriented Progressive Conservative and Liberal Members of Parliament from Québec, the Bloc Québécois was founded as a sovereigntist political party in 1990. The party sought to push for Québec independence from Canada, campaigning for it in the 1995 referendum. It has also defended the actions of the Québec government on issues of language and culture. On other issues, the party is a big tent but leans progressive, fighting for environmental action, supporting social spending, and defending women's rights such as abortion.</p><p>As the 2025 election approaches and tensions with the United States mount, the party's electoral fortunes are in trouble. With rising Canadian nationalism, the Québec nationalism upon which the Bloc Québécois depends is under threat. The Bloc will hope for a minority parliament in which it can hold the balance of power and extract concessions for Québec.</p></g>",
+            "description": "<g><ul><li>Abbreviation: GPC</li><li>Name: Green Party of Canada</li></ul><p>[NOT PLAYABLE FOR NOW]</p><p>The Green Party has existed in Canada since the 80s and early rise of environmental issues but for 2 decades was only seen as a minuscule party and similar in size to other parties that only the most astute in federal politics have actually heard of. But that would begin to change in the early 2000s as the issue of Climate Change became larger and also the effect of better leadership started to increase the vote share of the Greens with an independent MP even briefly joining the party in 2008 though it didn’t last. In the last election the Greens achieved 4 percent of the popular vote with their Party Leader even almost winning a seat in Hamilton. As the election approaches the Greens only goal is to get more votes and get a green MP into Parliament. </p></g>",
             "color_hex": "#87CEFA",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -301,43 +301,20 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 306,
-        "fields": {
-            "first_name": "",
-            "last_name": "PPC",
-            "election": 20,
-            "party": "People's Party of Canada",
-            "state": "Canada",
-            "priority": 1,
-            "description": "<g><ul><li>Abbreviation: PPC</li><li>Name: People's Party of Canada</li></ul><p>[NOT PLAYABLE]</p><p>The People's Party of Canada was formed in 2018 by Maxime Bernier who quit the Conservative Party after losing the 2017 Conservative leadership election. He accused the party of abandoning its conservative values, giving purpose to the People's Party as a truly conservative alternative.</p><p>The party gained traction in the 2021 election, railing against pandemic restrictions and vaccine mandates. They won 5% of the vote but were unable to win any seats. However, the issues that propelled them then have now receded into the background. Will the People's party find a new angle to drive a political breakthrough?</p></g>",
-            "color_hex": "#6F5D9A",
-            "secondary_color_hex": null,
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/Y4T9Byf.jpeg",
-            "electoral_victory_message": "",
-            "electoral_loss_message": "",
-            "no_electoral_majority_message": "",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 313,
         "fields": {
-            "first_name": "Jonathan",
-            "last_name": "Pedneault",
+            "first_name": "Gilles",
+            "last_name": "Duceppe",
             "election": 20,
-            "party": "Green",
-            "state": "Outremont",
+            "party": "Bloc Quebcois",
+            "state": "MP of Laurier-Sainte Marie",
             "priority": 1,
             "description": "",
             "color_hex": "#99C955",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/D90lpjQ.jpeg",
-            "description_as_running_mate": "<p>[NOT PLAYABLE]</p><p>An activist and journalist, Jonathan Pedneault has travelled around the world to raise awareness for human rights issues. He has reported from Chad, Sudan, Somalia, Egypt, Libya, the Central African Republic, Ukraine, among other countries. His activism started when he was only 15 years old when he co-founded a student organization for raising awareness about genocide. He now co-leads the Green Party along with long-time leader Elizabeth May.</p>",
+            "description_as_running_mate": "<p>[NOT PLAYABLE FOR NOW]</p><p>“Life is a constant battle for dignity and respect; we must never surrender our principles” -Gilles Duceppe was the interim leader of the Bloc since its first Leader Lucien Bouchard resigned and then replaced the Blocs unpopular leader of Michel Gauthier and has been the leader of the bloc in every election since 1997. He has been able to maintain the support of the Quebecois for more than a decade but things especially recently are now beginning to change. Be it the bloc's many failures in past years, them now being seen as the establishment in politics, or just general dissatisfaction from their base it appears that this election will be rough for the bloc and Duceppe is the only man that can stop its own armageddon. </p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -346,18 +323,18 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 314,
         "fields": {
-            "first_name": "Yves-François",
-            "last_name": "Blanchet",
+            "first_name": "Elizabeth",
+            "last_name": "may",
             "election": 20,
-            "party": "Bloc Québécois",
-            "state": "Beloeil—Chambly",
+            "party": "Green Party",
+            "state": "Running for MP in Saanich-Gulf Islands",
             "priority": 1,
             "description": "",
             "color_hex": "#87CEFA",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://i.imgur.com/BN9ie3p.jpeg",
-            "description_as_running_mate": "<p>[NOT PLAYABLE]</p><p>Before becoming leader of the Bloc Québécois, Yves-François Blanchet was a teacher, a business founder for supporting independent artists, a columnist for a regional newspaper, and Minister of Sustainable Development in Québec under the Parti Québécois.</p><p>Blanchet is the third Bloc leader to lead the party into an election, after Lucien Bouchard and Gilles Duceppe. Becoming leader in 2019, his leadership put an end to the Bloc's instability that had lasted since 2011. As Bloc leader, Blanchet has fought for the interests of Québec as the province's voice in Parliament and portrayed himself as a non-ideological voice of reason.</p>",
+            "description_as_running_mate": "<p>[NOT PLAYABLE FOR NOW]</p><p>A patchwork solution of provincial targets is an admission of defeat and a statement that we have failed our children and grandchildren -Elizabeth May is currently the leader of the Green Party but her political career started back in the 80s when after several failed attempts at relevance, she was able to get a position in Malroneys government but then left, she the ran for and became the leader of the Green Party in 2006 and for the past few elections has been steadily growing the Greens relevance. In this election she plans on focusing the Green parties campaign on her own race in victory so that she can get the Green Party an Elected seat in Parliament.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -378,26 +355,6 @@ campaignTrail_temp.candidate_json = [
             "is_active": 0,
             "image_url": "",
             "description_as_running_mate": "",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 316,
-        "fields": {
-            "first_name": "Maxime",
-            "last_name": "Bernier",
-            "election": 20,
-            "party": "People's",
-            "state": "Beauce",
-            "priority": 1,
-            "description": "",
-            "color_hex": "#6F5D9A",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/GL8Ywd9.jpeg",
-            "description_as_running_mate": "<p>[NOT PLAYABLE]</p><p>Before entering politics, Bernier worked for 20 years in the private sector, working in law and finance. Following in the footsteps of his father, he ran for the Conservative Party in Beauce and became a Member of Parliament in 2006. He achieved the highest vote share for a Conservative outside of Alberta. As a prominent representative from Québec, he was immediately appointed Minister of Industry then became Minister of Foreign Affairs. However, he fell out of favour after a security scandal and was relegated to the back benches before returning to cabinet in a minor role as a Minister of State.</p><p>After the resignation of Stephen Harper from Conservative Party leadership, Bernier ran to be his successor on a platform of free markets and rugged individualism. Though he won the first preference ballot, he ultimately lost the contest on the final ballot. He eventually left the party to form the People's Party following a controversy over his criticisms of multiculturalism and diversity.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -543,102 +500,6 @@ function addDynamicCSS() {
     document.head.appendChild(styleElem);
 }
 
-addDynamicCSS();
-
-tooltipList = [
-    { searchString: "Chrystia Freeland", explanationText: "<img src=\"https://i.imgur.com/XHwq6ee.jpeg\">The Liberal Finance Minister and Deputy Prime Minister. She was also responsible for US trade negotiations during Trump's first term and was dubbed \"Minister of Everything\" by the media." },
-    { searchString: "CBC", explanationText: "The Canadian Broadcasting Corporation. It is the English branch of the Canadian national broadcaster which receives federal funding to support independent journalism. Generally considered to be liberal-leaning." },
-    { searchString: "Radio-Canada", explanationText: "The French branch of the Canadian national broadcaster which receives federal funding to support independent journalism." },
-    { searchString: "Daily Show", explanationText: "An American late-night comedy show running on Comedy Central." },
-    { searchString: "Juno News", explanationText: "A conservative media outlet that was founded by the same people as True North, they portray themselves as opposing the \"lying\" legacy media and Laurentian elite." },
-    { searchString: "coast to coast to coast", explanationText: "Refers to the Atlantic, Pacific, and Arctic oceans." },
-    { searchString: "capital gains tax", explanationText: "A tax on profits gained from selling assets. The tax was half as much as taxes on regular income but was recently increased to two-thirds for large gains and businesses." },
-    { searchString: "consumer carbon tax", explanationText: "A carbon pricing scheme that introduces an additional cost to activities causing greenhouse gas emissions. The funds raised are used to fund a rebate." },
-    { searchString: "Trudeau’s carbon tax", explanationText: "A carbon pricing scheme that introduces an additional cost to activities causing greenhouse gas emissions. The funds raised are used to fund a rebate." },
-    { searchString: "Elbows up!", explanationText: "A defence mechanism when playing hockey." },
-    { searchString: "TVA", explanationText: "A major Québec-based, French-language television broadcast network." },
-    { searchString: "GST", explanationText: "The Goods and Services Tax, a 5% sales tax levied by the federal government." },
-    { searchString: "basic personal allowance", explanationText: "Threshold beneath which workers pay no federal income tax." },
-    { searchString: "lowest tax bracket", explanationText: "A 15% income tax rate applies on annual incomes below $57,375." },
-    { searchString: "LNG", explanationText: "Liquefied Natural Gas" },
-    { searchString: "First Nations", explanationText: "The largest of the three groupings of Indigenous people in Canada. Along with the Metis and Inuit, they represent 5% of the country's population. Due to history and treaties, they have some collective rights pertaining to land use." },
-    { searchString: "Trans Mountain", explanationText: "Major oil pipeline built from Edmonton to the Pacific Coast, owned and operated by the federal government. A recent expansion that tripled the system's capacity cost the government $53 billion." },
-    { searchString: "Brookfield", "explanationText": "A Canadian multinational alternative asset management company with over $1 trillion in managed assets, making it one of the largest investment companies in the world. Its board was chaired by Mark Carney until he stepped down to run for the Liberal leadership." },
-    { searchString: "Jack Layton", "explanationText": "<img src=\"https://i.imgur.com/MXZlm1B.jpeg\">The late leader of the NDP who led the party to Official Opposition for the first time in 2011. He succumbed to cancer shortly thereafter." },
-    { searchString: "Fleetwood-Port Kells", "explanationText": "A marginal LPC-CPC riding situated in the suburbs of Vancouver, covering parts of Surrey." },
-    { searchString: "Surrey", "explanationText": "<img src=\"https://i.imgur.com/KX7F4dr.jpeg\">The second largest municipality (by population) in Metro Vancouver." },
-    { searchString: "Vancouver", "explanationText": "<img src=\"https://i.imgur.com/MDs7Jp0.jpeg\">The third largest metropolitan region in Canada, situated on the West Coast. Composed of 23 local authorities, including the City of Vancouver." },
-    { searchString: "Ottawa", "explanationText": "<img src=\"https://i.imgur.com/zKTMlID.jpeg\">The national capital of Canada, situated on the border between Ontario and Québec." },
-    { searchString: "Montreal", "explanationText": "<img src=\"https://i.imgur.com/WTpjpXL.jpeg\">The largest city in Québec." },
-    { searchString: "Maritimes", "explanationText": "The provinces of Nova Scotia, New Brunswick, and Prince Edward Island, located on the East Coast." },
-    { searchString: "Alberta", "explanationText": "The second Western-most province. Its economy is highly dependent on oil and gas exports." },
-    { searchString: "Victoria", "explanationText": "<img src=\"https://i.imgur.com/KxznrSS.jpeg\">The capital of British Columbia, located on Vancouver Island off the West Coast." },
-    { searchString: "British Columbia", "explanationText": "The Western-most province located on the West Coast. This is the province in which the federal NDP is strongest, with almost half of their caucus representing the province." },
-    { searchString: "Hamilton", "explanationText": "<img src=\"https://i.imgur.com/LhpGsZh.jpeg\">A city in Ontario known for manufacturing, being dubbed the Steel Capital of Canada." },
-    { searchString: "Niagara Falls", "explanationText": "<img src=\"https://i.imgur.com/u3SNXsW.jpeg\">A city in Ontario known for tourism, but also possessing a significant manufacturing base." },
-    { searchString: "Québec City", "explanationText": "<img src=\"https://i.imgur.com/afHuIPL.jpeg\">The capital of Québec." },
-    { searchString: "Brampton", "explanationText": "<img src=\"https://i.imgur.com/qNCWBvI.jpeg\">A suburban city in the Greater Toronto Area." },
-    { searchString: "Scarborough", "explanationText": "<img src=\"https://i.imgur.com/gsvoUWJ.jpeg\">A suburban district of the City of Toronto." },
-    { searchString: "Saskatchewan", "explanationText": "The third Western-most province with an economy based around agriculture and resource extraction, known as the Bread Basket of Canada." },
-    { searchString: "Nova Scotia", "explanationText": "The most populous of the Maritime provinces, located on the East Coast." },
-    { searchString: "Greater Toronto Area", "explanationText": "Located in Ontario, it includes the City of Toronto and surrounding suburbs, it is home to nearly 20% of Canadians." },
-    { searchString: "Ontario", "explanationText": "Situated on the Great Lakes, it is the most populous province." },
-    { searchString: "Edmonton", "explanationText": "<img src=\"https://i.imgur.com/7Fj7T0k.jpeg\">The capital and second-largest city in Alberta." },
-    { searchString: "Saskatoon", "explanationText": "<img src=\"https://i.imgur.com/PhqZ9RV.jpeg\">The largest city in Saskatchewan." },
-    { searchString: "Calgary", "explanationText": "<img src=\"https://i.imgur.com/a9Dzs74.jpeg\">The largest city in Alberta, it is home to the headquarters of many oil companies. Of the major cities in Canada, it is the most supportive of the Conservative Party." },
-    { searchString: "Kitchener", "explanationText": "<img src=\"https://i.imgur.com/eO0L6OU.jpeg\">A city in Ontario, it remains a highly industrial city." },
-    { searchString: "Windsor", "explanationText": "<img src=\"https://i.imgur.com/R69KSYc.jpeg\">A city in Southwestern Ontario, Windsor is located across from Detroit with which it shares the busiest commercial crossing between the US and Canada." },
-    { searchString: "London", "explanationText": "<img src=\"https://i.imgur.com/12hsfLI.jpeg\">A city on the Thames in Southwestern Ontario, it is situated between the Great Lakes within roughly equal distances of Toronto, Detroit, and Buffalo." },
-    { searchString: "Richmond", "explanationText": "<img src=\"https://i.imgur.com/I3jShQg.jpeg\">A city in Metro Vancouver, Richmond is home to many successful malls and significant farmland which is protected from development." },
-    { searchString: "Coquitlam", "explanationText": "<img src=\"https://i.imgur.com/v4gGuS7.jpeg\">A bedroom community in Metro Vancouver." },
-    { searchString: "Mississauga", "explanationText": "<img src=\"https://i.imgur.com/dAOsHs2.jpeg\">The second largest city in the Greater Toronto Area, Mississauga is home to the head offices of many large corporations." },
-    { searchString: "Liberal leadership contenders", "explanationText": "Includes former Minister of Finance Chrystia Freeland, Government House Leader Karina Gould, and businessman Frank Baylis." },
-    { searchString: "three word slogans", "explanationText": "Axe the Tax, Build the Homes, Fix the Budget, Stop the Crime, Bring it Home, etc. Poilievre's campaign has an affinity for verb-the-noun slogans." },
-    { searchString: "prorogued", "explanationText": "Termination of parliamentary session and all parliamentary business. As a result, it can be used by the government to delay a vote of no-confidence." },
-    { searchString: "Danielle Smith", "explanationText": "<img src=\"https://i.imgur.com/anQnIGD.jpeg\">Premier of Alberta and leader of the United Conservative Party of Alberta, formed out of the 2017 merger of the Progressive Conservative Pary and the Wildrose Party." },
-    { searchString: "Scott Moe", "explanationText": "<img src=\"https://i.imgur.com/vw600kb.jpeg\">Premier of Saskatchewan and leader of the conservative Saskatchewan Party." },
-    { searchString: "Doug Ford", "explanationText": "<img src=\"https://i.imgur.com/KWxK5oT.jpeg\">Premier of Ontario and leader of the Ontario Progressive Conservative Party. He is considered by many conservatives to be insufficiently conservative." },
-    { searchString: "Tim Houston", "explanationText": "<img src=\"https://i.imgur.com/DRalVGe.jpeg\">Premier of Nova Scotia and leader of the Nova Scotia Progressive Conservative Party. Considered to be a Red Tory with a more left-leaning policy platform than most conservative parties." },
-    { searchString: "EI", "explanationText": "Employment insurance. A program providing temporary income of unemployed workers." },
-    { searchString: "Housing Accelerator Fund", "explanationText": "A $4.4 billion initiative used to negotiate zoning reforms with municipalities with the aim of spurring more housing construction." },
-    { searchString: "Goldman Sachs", "explanationText": "The second largest investment bank in the world. It is based out of New York City." },
-    { searchString: "Bill C-69", "explanationText": "Dubbed the \"No New Pipelines\" bill by opponents, it requires that resource projects be assessed for environmental, health, social and economic impacts and respect the rights of Indigenous Peoples." },
-    { searchString: "Campaign Life Coalition", "explanationText": "A pro-life organization that aims to pressure Conservative MPs into passing laws against abortion" },
-    { searchString: "Abortion Rights Coalition", "explanationText": "A pro-choice group aiming to defend abortion rights and expand access." },
-    { searchString: "Stephen Harper", "explanationText": "<img src=\"https://i.imgur.com/pwRg4be.jpeg\">The Conservative Prime Minister of Canada from 2006 to 2015." },
-    { searchString: "John A. Macdonald", "explanationText": "<img src=\"https://i.imgur.com/CxfLNZ9.jpeg\">The first Canadian Prime Minister, and a driving figure of Canadian Confederation." },
-    { searchString: "Bank of Canada", "explanationText": "The central bank of Canada, responsible for managing monetary policy with the aim of keeping inflation and unemployment low." },
-    { searchString: "UNRWA", "explanationText": "The United Nations Relief and Works Agency for Palestine Refugees in the Near East, responsible for delivering humanitarian relief to people in Palestine." },
-    { searchString: "notwithstanding clause", "explanationText": "Section 33 of the Canadian Charter of Rights and Freedoms that allows the federal and provincial governments to override fundamental rights, legal rights, and equality rights. It has never been invoked by the federal government." },
-    { searchString: "equalization payments", "explanationText": "Payments made by the federal government to provinces that have less fiscal capacity than the others. In the last decade, the three Western-most provinces of British Columbia, Alberta, and Saskatchewan have not received any payments while Québec and the Maritimes are the main recipients." },
-    { searchString: "Laurentian elite", "explanationText": "The political, academic, cultural, media, and business elites located along the St. Lawrence River such as in Toronto, Ottawa, and Montreal." },
-    { searchString: "provincial competencies", "explanationText": "The areas in which constitutional authority rests primarily with the provincial governments, such as health and education." },
-    { searchString: "health transfers", "explanationText": "Payments made by the federal government to the provinces to be used for public healthcare. Currently covers 21.5% of public health expenditure." },
-    { searchString: "energy cap", "explanationText": "A cap on greenhouse gas emissions that may be emitted by the oil and gas sector. Instituted to reduce the emissions intensity of the oil and gas sector." },
-    { searchString: "industrial carbon tax", "explanationText": "A price on carbon pollution where facilities that are less efficient than the standard have to pay while facilities that are more efficient than the standard earn credits that they can sell." },
-    { searchString: "in-vitro fertilization", "explanationText": "A popular but expensive fertility treatment." },
-    { searchString: "safe supply", "explanationText": "A drug harm reduction policy where drug users are provided with safer alternative drugs to protect them from the potentially toxic illegal drug supply." },
-    { searchString: "throwing a wrench", "explanationText": "Without your guidance, Danielle Smith would have been tempted to call you \"very much in sync\" with the Trump administration." },
-    { searchString: "dentalcare", "explanationText": "The Canadian Dental Care Plan which provides dental insurance to qualifying Canadians." },
-    { searchString: "pharmacare", "explanationText": "The National Pharmacare program which seeks to expand pharmaceutial coverage in Canada. The program is currently limited to certain provinces that have signed agreements and only covers some diabetes medications and contraception." },
-    { searchString: "CSIS", "explanationText": "The Canadian Security Intelligence Service, the agency responsible for national security intelligence." },
-    { searchString: "Nanaimo", "explanationText": "<img src=\"https://i.imgur.com/w19f1SC.jpeg\">A city situated on Vancouver Island in British Columbia, with transit connections to Vancouver serviced by ferry." },
-    { searchString: "right-to-work", "explanationText": "Bans agreements between unions and employers that compel new employees to join the union." },
-    { searchString: "World Economic Forum", "explanationText": "An international advocacy organization founded by Klaus Schwab and funded by its members, including a thousand multinational corporations." },
-    { searchString: "Century Initiative", "explanationText": "A Canadian lobby group aiming to make Canada a more prominent world power by increasing its population to 100 million by 2100." },
-    { searchString: "Premier Eby", "explanationText": "<img src=\"https://i.imgur.com/Upw1uiO.jpeg\">The BC NDP premier of British Columbia." },
-    { searchString: "RCMP", "explanationText": "The Royal Canadian Mounted Police. The national Canadian police service which, contrary to its name, is no longer mounted." },
-    { searchString: "federally-regulated industries", "explanationText": "The federal government only has the power to regulate certain industries, with the rest being the responsibility of the provinces. Federally-regulated industries include banking, telecommunications, and air transportation." },
-    { searchString: "sectoral bargaining", "explanationText": "As opposed to enterprise bargaining where unions negotiate with individual businesses, sectoral collective bargaining occurs across an entire industry." },
-    { searchString: "non-market housing", "explanationText": "Non-market housing is an umbrella term for housing that is rented out at below-market rates. This includes social housing, supportive housing, and co-op housing." },
-    { searchString: "right-to-work", "explanationText": "Law to allow workers in unionized workplaces to refuse to pay union dues while still benefiting from collective bargaining." },
-    { searchString: "back-to-work", "explanationText": "Government order declaring a strike illegal and requiring striking workers to return to work without a contract." },
-    { searchString: "Indian act", "explanationText": "The law that governs Canada’s relationship with the First Nations, including governance, land use, public services, and reserves." },
-    { searchString: "PBO", "explanationText": "The Parliamentary Budget Officer who is responsible for producing non-partisan cost estimates for policy proposals." },
-    { searchString: "Manitoba", "explanationText": "A province in Western Canada, most of its population lives in its capital city of Winnipeg, the Slurpee capital of the world." },
-    { searchString: "Wab Kinew", "explanationText": "<img src=\"https://i.imgur.com/dI4ZiOA.jpeg\">The premier of Manitoba and leader of the Manitoba NDP." }
-]
-
 document.getElementById("header").src = "https://i.imgur.com/StrY22v.jpeg";
 $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/EPkdtPN.jpeg)";
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#EA6D6A"
@@ -723,55 +584,6 @@ function updateElements() {
 
 var mutationObserver = new MutationObserver(updateElements);
 mutationObserver.observe(document.documentElement, { childList: true, subtree: true });
-
-campaignTrail_temp.achievements = {
-    "Carnegeddon": {
-        "image": "https://i.imgur.com/2oPmT8I.jpeg",
-        "description": "As Carney, win the most seats in Liberal Party history (at least 192).",
-        "cannotBeCheated": true
-    },
-    "Real Change": {
-        "image": "https://i.imgur.com/xDwYWhc.jpeg",
-        "description": "As Carney, criticize Trudeau, purge the civil service, unseat Poilievre, and win a majority.",
-        "cannotBeCheated": true
-    },
-    "Carbon Tax Carney": {
-        "image": "https://i.imgur.com/r7nCfNj.jpeg",
-        "description": "As Carney, keep the carbon tax, oppose pipelines, and win.",
-        "cannotBeCheated": true
-    },
-    "Blue Wave": {
-        "image": "https://i.imgur.com/bpwGkMz.jpeg",
-        "description": "As Poilievre, win a majority government.",
-        "cannotBeCheated": true
-    },
-    "Sniped": {
-        "image": "https://i.imgur.com/kjRF3NJ.jpeg",
-        "description": "As Poilievre, win the most seats but lose your own.",
-        "cannotBeCheated": true
-    },
-    "Deal with the Devil": {
-        "image": "https://i.imgur.com/GctLzed.jpeg",
-        "description": "As Poilievre, become Prime Minister with support from the Bloc Québécois.",
-        "cannotBeCheated": true
-    },
-    "Still Fighting": {
-        "image": "https://i.imgur.com/8zAv9ru.png",
-        "description": "As Singh, preserve the NDP’s official party status by winning at least 12 seats",
-        "cannotBeCheated": true
-    },
-    "Financially Responsible": {
-        "image": "https://i.imgur.com/QA4s683.png",
-        "description": "As Singh, leave the NDP in excellent financial shape.",
-        "cannotBeCheated": true
-    },
-    "You Can’t Get Rid of Me": {
-        "image": "https://i.imgur.com/6eeIouY.png",
-        "description": "As Singh, hold on to your seat in Burnaby Central.",
-        "cannotBeCheated": true
-    }
-}
-
 
 // Initialise custom music
 
