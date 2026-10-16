@@ -86,10 +86,10 @@ campaignTrail_temp.temp_election_list = [
     }
 ]
 
-campaignTrail_temp.credits = "<button onclick='funcredits()'>rbaldwin</button>";
+campaignTrail_temp.credits = "<button onclick='funcredits()'>Simjim39</button>";
 
 funcredits = function() {
-    credits = ["Created by rbaldwin#4567 aka u/Ok_Frosting4780", "", "Inspired by Diefenbaker '57", "", "Map adapted from Wikipedia user Eric0892", "", "Tooltips and election charts adapted from 2023 Netherlands", "", "Music player adapted from 2024: Arnold Amendment and Germany 2021 - Between Decades"]
+    credits = ["Created by Simjim39", "", "Inspired by Diefenbaker '57 and Canada 2025", "", "Map adapted from Wikipedia user Eric0892", "", "Tooltips and election charts adapted from 2023 Netherlands", "", "Music player adapted from 2024: Arnold Amendment and Germany 2021 - Between Decades"]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
