@@ -67,9 +67,9 @@ campaignTrail_temp.election_json = [
             "year": 2011,
             "display_year": "canada 2011",
             "summary": "<p>On March 25th 2011 a motion of no confidence was passed by the opposition parties of the Bloc Quebecois, Liberals and NDP with the writs of election also being issued by the Governor General after being advised by the Prime Minister. Stephen Harper's Conservatives campaign on finally achieving a Majority Government while Michael Ignatieff's Liberals and Gilles Duceppe's Bloc Quebecois campaign to stop keep the tories at a Minority, Jack Layton's NDP also wish to stop a Conservative Majority but also want to overtake the Liberals and Bloc in their number of seats while Elizabeth May's Greens want to finally elect one of their candidates into Parliament. Who will achieve their goals, and who will concede, ultimately it's all up to YOU.</p>",
-            "image_url": "https://i.imgur.com/XY0opQO.jpeg",
-            "winning_electoral_vote_number": 172,
-            "advisor_url": "https://i.imgur.com/q9n37oj.jpeg",
+            "image_url": "https://i.imgur.com/pBSr6D7h.jpg",
+            "winning_electoral_vote_number": 155,
+            "advisor_url": "https://i.imgur.com/fqcyyD3h.jpg",
             "recommended_reading": "",
             "has_visits": 0,
             "no_electoral_majority_image": ""
@@ -244,7 +244,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#99C955",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://i.imgur.com/15MwupH.jpeg",
+            "image_url": "https://i.imgur.com/x8381BSh.jpg",
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
@@ -267,7 +267,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#87CEFA",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://i.imgur.com/YwLUKdd.jpeg",
+            "image_url": "https://i.imgur.com/BpaYb6fh.jpg",
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
@@ -313,7 +313,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#99C955",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/D90lpjQ.jpeg",
+            "image_url": "https://i.imgur.com/Fa4RBaOh.jpg",
             "description_as_running_mate": "<p>[NOT PLAYABLE FOR NOW]</p><p>“Life is a constant battle for dignity and respect; we must never surrender our principles” -Gilles Duceppe was the interim leader of the Bloc since its first Leader Lucien Bouchard resigned and then replaced the Blocs unpopular leader of Michel Gauthier and has been the leader of the bloc in every election since 1997. He has been able to maintain the support of the Quebecois for more than a decade but things especially recently are now beginning to change. Be it the bloc's many failures in past years, them now being seen as the establishment in politics, or just general dissatisfaction from their base it appears that this election will be rough for the bloc and Duceppe is the only man that can stop its own armageddon. </p>",
             "candidate_score": 1,
             "running_mate": true
@@ -333,7 +333,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#87CEFA",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/BN9ie3p.jpeg",
+            "image_url": "https://i.imgur.com/lmcXqmyh.jpg",
             "description_as_running_mate": "<p>[NOT PLAYABLE FOR NOW]</p><p>A patchwork solution of provincial targets is an admission of defeat and a statement that we have failed our children and grandchildren -Elizabeth May is currently the leader of the Green Party but her political career started back in the 80s when after several failed attempts at relevance, she was able to get a position in Malroneys government but then left, she the ran for and became the leader of the Green Party in 2006 and for the past few elections has been steadily growing the Greens relevance. In this election she plans on focusing the Green parties campaign on her own race in victory so that she can get the Green Party an Elected seat in Parliament.</p>",
             "candidate_score": 1,
             "running_mate": true
@@ -500,7 +500,7 @@ function addDynamicCSS() {
     document.head.appendChild(styleElem);
 }
 
-document.getElementById("header").src = "https://i.imgur.com/StrY22v.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/6lfqSMDh.jpg";
 $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/EPkdtPN.jpeg)";
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#EA6D6A"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#FFFFFF"
