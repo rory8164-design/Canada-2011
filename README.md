@@ -54584,11 +54584,6 @@ function barChart(election, yAxis) {
             color: '#87CEFA'
         }, 
         {
-            name: "People's Party",
-            flag: 'ppc',
-            color: '#6F5D9A'
-        }, 
-        {
             name: "Others",
             flag: 'other',
             color: '#808080'
@@ -54699,7 +54694,6 @@ function Chartbuilder(type) {
         var NdpSeats = (e.final_overall_results.find((r) => r.candidate === 302));
         var GrnSeats = (e.final_overall_results.find((r) => r.candidate === 303));
         var BlcSeats = (e.final_overall_results.find((r) => r.candidate === 304));
-        var PpcSeats = (e.final_overall_results.find((r) => r.candidate === 306));
         var OthSeats = (e.final_overall_results.find((r) => r.candidate === 305));
 
         var seatData = [
@@ -54709,7 +54703,6 @@ function Chartbuilder(type) {
             ['Bloc Québécois', BlcSeats.electoral_votes, '#87CEFA', 'BQ'],
             ['Others', OthSeats.electoral_votes, '#808080', 'Others'],
             ['Conservative Party', ConSeats.electoral_votes, '#6495ED', 'CPC'],
-            ['People\'s Party', PpcSeats.electoral_votes, '#6F5D9A', 'PPC']
         ];
         seatData = seatData.filter((entry) => { return entry[1] > 0; });
         parliamentChart(seatData);
@@ -54739,7 +54732,6 @@ function getVoteShareData() {
     var NdpShare = getVoteShare(totalPopularVote, 302);
     var GrnShare = getVoteShare(totalPopularVote, 303);
     var BlcShare = getVoteShare(totalPopularVote, 304);
-    var PpcShare = getVoteShare(totalPopularVote, 306);
     var OthShare = getVoteShare(totalPopularVote, 305);
 
     const data = {
@@ -54749,7 +54741,6 @@ function getVoteShareData() {
             ["New Democratic Party", NdpShare],
             ["Green Party", GrnShare],
             ["Bloc Québécois", BlcShare],
-            ["People's Party", PpcShare],
             ["Others", OthShare]
         ],
         "2021": [
@@ -54758,7 +54749,6 @@ function getVoteShareData() {
             ["New Democratic Party", 17.8],
             ["Green Party", 2.3],
             ["Bloc Québécois", 7.6],
-            ["People's Party", 4.9],
             ["Others", 1.1]
         ]
     };
@@ -54771,7 +54761,6 @@ function getSeatData() {
     var NdpSeats = getSeatNumber(302);
     var GrnSeats = getSeatNumber(303);
     var BlcSeats = getSeatNumber(304);
-    var PpcSeats = getSeatNumber(306);
     var OthSeats = getSeatNumber(305);
     const data = {
         "2025": [
@@ -54779,8 +54768,7 @@ function getSeatData() {
             ["Conservative Party", ConSeats],
             ["New Democratic Party", NdpSeats],
             ["Green Party", GrnSeats],
-            ["Bloc Québécois", BlcSeats],
-            ["People's Party", PpcSeats],
+            ["Bloc Québécois", BlcSeats]
             ["Others", OthSeats]
         ],
         "2021": [
@@ -54789,7 +54777,6 @@ function getSeatData() {
             ["New Democratic Party", 25],
             ["Green Party", 2],
             ["Bloc Québécois", 32],
-            ["People's Party", 0],
             ["Others", 0]
         ]
     }
